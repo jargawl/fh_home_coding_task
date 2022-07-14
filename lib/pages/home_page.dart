@@ -1,4 +1,4 @@
-import 'package:fh_home_coding_task/widgets/board_member.dart';
+import 'package:fh_home_coding_task/pages/section/board_member.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {

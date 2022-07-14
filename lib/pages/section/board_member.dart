@@ -1,3 +1,4 @@
+import 'package:fh_home_coding_task/widgets/buttons/dark_button.dart';
 import 'package:flutter/material.dart';
 
 class BoardMembers extends StatelessWidget {
@@ -48,6 +49,13 @@ class BoardMembers extends StatelessWidget {
                   ),
                   SizedBox(width: 270),
                   Text('01.01.1970'),
+                ],
+              ),
+              const SizedBox(height: 30),
+              Row(
+                children: const [
+                  SizedBox(width: 50),
+                  DarkButton(text: 'EDIT'),
                 ],
               )
             ],
