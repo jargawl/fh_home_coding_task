@@ -64,9 +64,9 @@ class BoardMembers extends StatelessWidget {
                 const SizedBox(height: 20),
                 Row(
                   children: const [
-                    SizedBox(width: 30),
+                    SizedBox(width: 25),
                     DarkButton(text: 'EDIT'),
-                    SizedBox(width: 20),
+                    SizedBox(width: 15),
                     DarkButton(text: 'DELETE'),
                   ],
                 )
