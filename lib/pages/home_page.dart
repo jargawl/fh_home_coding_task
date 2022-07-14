@@ -12,8 +12,9 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
+        mainAxisAlignment: MainAxisAlignment.start,
         children: const [
-          SizedBox(height: 10),
+          SizedBox(height: 50),
           UpSecion(),
           BoardMembers(),
           SmokeDetector(),
