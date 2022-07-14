@@ -1,3 +1,4 @@
+import 'package:fh_home_coding_task/widgets/board_member.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -5,6 +6,10 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      body: Column(
+        children: const [BoardMembers()],
+      ),
+    );
   }
 }
