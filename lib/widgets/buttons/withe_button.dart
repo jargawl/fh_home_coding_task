@@ -11,8 +11,9 @@ class WitheButton extends StatelessWidget {
         backgroundColor: MaterialStateProperty.all(Colors.white),
         shape: MaterialStateProperty.all<RoundedRectangleBorder>(
           RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(18.0),
-              side: const BorderSide(color: Colors.black)),
+            borderRadius: BorderRadius.circular(18.0),
+            side: const BorderSide(color: Colors.black87),
+          ),
         ),
       ),
       child: Text(

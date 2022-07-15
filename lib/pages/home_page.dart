@@ -11,15 +11,18 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.start,
-        children: const [
-          SizedBox(height: 50),
-          UpSecion(),
-          BoardMembers(),
-          SmokeDetector(),
-          WaterLeakDetector(),
-        ],
+      body: SizedBox(
+        height: 800,
+        width: 1600,
+        child: Column(
+          children: const [
+            SizedBox(height: 50),
+            UpSecion(),
+            BoardMembers(),
+            SmokeDetector(),
+            WaterLeakDetector(),
+          ],
+        ),
       ),
     );
   }

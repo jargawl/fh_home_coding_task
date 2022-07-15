@@ -29,29 +29,29 @@ class SmokeDetector extends StatelessWidget {
                   children: const [
                     SizedBox(width: 20),
                     Icon(Icons.question_mark),
-                    Text('Smoke detextor'),
+                    Text('Smoke detector'),
                     SizedBox(width: 200),
                     Icon(
-                      Icons.priority_high,
+                      Icons.priority_high_rounded,
                       color: Colors.orange,
                     ),
                     Text(
                       'Offline',
                       style: TextStyle(color: Colors.orange),
                     ),
-                    SizedBox(width: 260),
+                    SizedBox(width: 235),
                     Icon(
-                      Icons.priority_high,
+                      Icons.priority_high_rounded,
                       color: Colors.orange,
                     ),
                     Text(
                       'Tampered',
                       style: TextStyle(color: Colors.orange),
                     ),
-                    SizedBox(width: 180),
-                    Icon(Icons.check_outlined),
+                    SizedBox(width: 155),
+                    Icon(Icons.check_rounded),
                     Text('Configured'),
-                    SizedBox(width: 240),
+                    SizedBox(width: 390),
                     Icon(Icons.keyboard_arrow_up)
                   ],
                 ),

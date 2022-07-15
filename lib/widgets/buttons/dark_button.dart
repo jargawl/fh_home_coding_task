@@ -8,7 +8,7 @@ class DarkButton extends StatelessWidget {
     return ElevatedButton(
       onPressed: () {},
       style: ButtonStyle(
-        backgroundColor: MaterialStateProperty.all(Colors.black),
+        backgroundColor: MaterialStateProperty.all(Colors.black87),
         shape: MaterialStateProperty.all<RoundedRectangleBorder>(
           RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(18.0),

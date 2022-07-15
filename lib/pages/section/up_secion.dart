@@ -9,10 +9,10 @@ class UpSecion extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: const [
-        SizedBox(width: 30),
+        SizedBox(width: 100),
         Icon(Icons.question_mark),
         Text('Comon area'),
-        SizedBox(width: 845),
+        SizedBox(width: 860),
         SizedBox(width: 10),
         DarkButton(text: '+ CONTACT'),
         SizedBox(width: 10),
