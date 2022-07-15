@@ -26,8 +26,14 @@ class WaterLeakDetector extends StatelessWidget {
                 const SizedBox(height: 5),
                 Row(
                   children: const [
-                    SizedBox(width: 20),
-                    Icon(Icons.question_mark),
+                    SizedBox(width: 10),
+                    SizedBox(
+                      height: 25,
+                      width: 25,
+                      child: Image(
+                        image: AssetImage('images/cd.jpg'),
+                      ),
+                    ),
                     Text('Water leak detector'),
                     SizedBox(width: 180),
                     Icon(Icons.check_rounded),
@@ -38,39 +44,45 @@ class WaterLeakDetector extends StatelessWidget {
                     SizedBox(width: 170),
                     Icon(Icons.check_rounded),
                     Text('Configured'),
-                    SizedBox(width: 385),
+                    SizedBox(width: 395),
                     Icon(Icons.keyboard_arrow_up)
                   ],
                 ),
                 const SizedBox(height: 15),
                 Row(
                   children: const [
-                    SizedBox(width: 25),
+                    SizedBox(width: 15),
                     Text(
                       'ADDRESS',
                       style: TextStyle(fontWeight: FontWeight.bold),
                     ),
                     SizedBox(width: 265),
                     Text('2_0'),
-                    Icon(Icons.question_mark),
+                    SizedBox(
+                      height: 25,
+                      width: 25,
+                      child: Image(
+                        image: AssetImage('images/de.jpg'),
+                      ),
+                    ),
                   ],
                 ),
                 const SizedBox(height: 10),
                 Row(
                   children: const [
-                    SizedBox(width: 25),
+                    SizedBox(width: 15),
                     Text(
                       'DEVICE ID',
                       style: TextStyle(fontWeight: FontWeight.bold),
                     ),
-                    SizedBox(width: 265),
+                    SizedBox(width: 260),
                     Text('1'),
                   ],
                 ),
                 const SizedBox(height: 15),
                 Row(
                   children: const [
-                    SizedBox(width: 25),
+                    SizedBox(width: 15),
                     DarkButton(text: 'EDIT'),
                     SizedBox(width: 15),
                     DarkButton(text: 'UNPAIR'),
@@ -78,7 +90,7 @@ class WaterLeakDetector extends StatelessWidget {
                     DarkButton(text: 'IDENTIFY'),
                     SizedBox(width: 15),
                     DarkButton(text: 'PING'),
-                    SizedBox(width: 750),
+                    SizedBox(width: 785),
                     CustomIconButton(text: 'TIMELINE'),
                     SizedBox(width: 15),
                     CustomIconButton(text: '8 NOTES'),

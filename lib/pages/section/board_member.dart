@@ -10,7 +10,7 @@ class BoardMembers extends StatelessWidget {
       padding: const EdgeInsets.all(30.0),
       child: Container(
         width: 1400,
-        height: 150,
+        height: 130,
         decoration: BoxDecoration(
           border: Border.all(color: Colors.lightBlue),
           borderRadius: const BorderRadius.all(
@@ -24,45 +24,80 @@ class BoardMembers extends StatelessWidget {
             Row(
               children: const [
                 SizedBox(width: 12),
-                Icon(Icons.question_mark_outlined),
-                SizedBox(width: 3),
+                SizedBox(
+                  height: 25,
+                  width: 25,
+                  child: Image(
+                    image: AssetImage('images/ab.jpg'),
+                  ),
+                ),
                 Text('Board member'),
                 SizedBox(width: 3),
-                Icon(Icons.library_books_outlined),
+                SizedBox(
+                  height: 25,
+                  width: 25,
+                  child: Image(
+                    image: AssetImage('images/de.jpg'),
+                  ),
+                ),
                 SizedBox(width: 180),
-                Icon(Icons.phone),
+                SizedBox(
+                  height: 25,
+                  width: 25,
+                  child: Image(
+                    image: AssetImage('images/wx.jpg'),
+                  ),
+                ),
                 SizedBox(width: 3),
                 Text('+47 444 44 444'),
                 SizedBox(width: 3),
-                Icon(Icons.library_books_outlined),
+                SizedBox(
+                  height: 25,
+                  width: 25,
+                  child: Image(
+                    image: AssetImage('images/de.jpg'),
+                  ),
+                ),
                 SizedBox(width: 160),
                 Text('Priority 1'),
                 SizedBox(width: 180),
-                Icon(Icons.alternate_email),
+                SizedBox(
+                  height: 25,
+                  width: 25,
+                  child: Image(
+                    image: AssetImage('images/ef.jpg'),
+                  ),
+                ),
                 SizedBox(width: 3),
                 Text('mario@castle.com'),
                 SizedBox(width: 3),
-                Icon(Icons.library_books_outlined),
-                SizedBox(width: 313),
+                SizedBox(
+                  height: 25,
+                  width: 25,
+                  child: Image(
+                    image: AssetImage('images/de.jpg'),
+                  ),
+                ),
+                SizedBox(width: 310),
                 Icon(Icons.keyboard_arrow_up)
               ],
             ),
-            const SizedBox(height: 30),
+            const SizedBox(height: 20),
             Row(
               children: const [
-                SizedBox(width: 30),
+                SizedBox(width: 15),
                 Text(
                   'UPDATED AT',
                   style: TextStyle(fontWeight: FontWeight.bold),
                 ),
-                SizedBox(width: 240),
+                SizedBox(width: 245),
                 Text('01.01.1970'),
               ],
             ),
-            const SizedBox(height: 25),
+            const SizedBox(height: 15),
             Row(
               children: const [
-                SizedBox(width: 25),
+                SizedBox(width: 15),
                 DarkButton(text: 'EDIT'),
                 SizedBox(width: 15),
                 DarkButton(text: 'DELETE'),

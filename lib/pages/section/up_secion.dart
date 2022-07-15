@@ -10,8 +10,19 @@ class UpSecion extends StatelessWidget {
     return Row(
       children: const [
         SizedBox(width: 100),
-        Icon(Icons.question_mark),
-        Text('Comon area'),
+        SizedBox(
+          height: 40,
+          width: 40,
+          child: Image(
+            image: AssetImage('images/hs.jpg'),
+          ),
+        ),
+        Text(
+          'Common area',
+          style: TextStyle(
+            fontWeight: FontWeight.bold,
+          ),
+        ),
         SizedBox(width: 860),
         SizedBox(width: 10),
         DarkButton(text: '+ CONTACT'),

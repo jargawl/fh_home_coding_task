@@ -27,8 +27,14 @@ class SmokeDetector extends StatelessWidget {
                 const SizedBox(height: 5),
                 Row(
                   children: const [
-                    SizedBox(width: 20),
-                    Icon(Icons.question_mark),
+                    SizedBox(width: 10),
+                    SizedBox(
+                      height: 25,
+                      width: 25,
+                      child: Image(
+                        image: AssetImage('images/ba.jpg'),
+                      ),
+                    ),
                     Text('Smoke detector'),
                     SizedBox(width: 200),
                     Icon(
@@ -37,7 +43,10 @@ class SmokeDetector extends StatelessWidget {
                     ),
                     Text(
                       'Offline',
-                      style: TextStyle(color: Colors.orange),
+                      style: TextStyle(
+                        color: Colors.orange,
+                        fontWeight: FontWeight.bold,
+                      ),
                     ),
                     SizedBox(width: 235),
                     Icon(
@@ -46,44 +55,53 @@ class SmokeDetector extends StatelessWidget {
                     ),
                     Text(
                       'Tampered',
-                      style: TextStyle(color: Colors.orange),
+                      style: TextStyle(
+                        color: Colors.orange,
+                        fontWeight: FontWeight.bold,
+                      ),
                     ),
                     SizedBox(width: 155),
                     Icon(Icons.check_rounded),
                     Text('Configured'),
-                    SizedBox(width: 390),
+                    SizedBox(width: 400),
                     Icon(Icons.keyboard_arrow_up)
                   ],
                 ),
-                const SizedBox(height: 15),
+                const SizedBox(height: 10),
                 Row(
                   children: const [
-                    SizedBox(width: 25),
+                    SizedBox(width: 15),
                     Text(
                       'ADDRESS',
                       style: TextStyle(fontWeight: FontWeight.bold),
                     ),
                     SizedBox(width: 265),
                     Text('2_0'),
-                    Icon(Icons.question_mark),
+                    SizedBox(
+                      height: 25,
+                      width: 25,
+                      child: Image(
+                        image: AssetImage('images/de.jpg'),
+                      ),
+                    ),
                   ],
                 ),
                 const SizedBox(height: 10),
                 Row(
                   children: const [
-                    SizedBox(width: 25),
+                    SizedBox(width: 15),
                     Text(
                       'DEVICE ID',
                       style: TextStyle(fontWeight: FontWeight.bold),
                     ),
-                    SizedBox(width: 265),
+                    SizedBox(width: 260),
                     Text('1'),
                   ],
                 ),
                 const SizedBox(height: 15),
                 Row(
                   children: const [
-                    SizedBox(width: 25),
+                    SizedBox(width: 15),
                     DarkButton(text: 'EDIT'),
                     SizedBox(width: 15),
                     DarkButton(text: 'UNPAIR'),
@@ -97,7 +115,7 @@ class SmokeDetector extends StatelessWidget {
                     DarkButton(text: 'SENSITIVITY'),
                     SizedBox(width: 15),
                     WitheButton(text: 'TEST SIREN'),
-                    SizedBox(width: 400),
+                    SizedBox(width: 440),
                     CustomIconButton(text: 'TIMELINE'),
                     SizedBox(width: 15),
                     CustomIconButton(text: '8 NOTES'),
