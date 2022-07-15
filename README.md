@@ -1,16 +1,4 @@
-# fh_home_coding_task
+Test task fh_home_coding.
 
-A new Flutter project.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+[Zrzut ekranu 2022-07-15 o 21 06 54](https://user-images.githubusercontent.com/100567187/179294763-aaac192d-751c-4dd2-93a3-320f8a2713d0.png)
